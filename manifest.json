@@ -1,0 +1,25 @@
+{
+    "name": "Currency Converter",
+    "version": "1.0",
+    "description": "Converts currency and stuff.",
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "js/stuff.js"
+        ],
+        "persistent": false
+    },
+    "options_ui": {
+        "page": "html/options.html",
+        "chrome_style": true
+    },
+    "browser_action": {
+        "default_title": "Currency Converter",
+        "default_popup": "html/popup.html"
+    },
+    "manifest_version": 2
+}

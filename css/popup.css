@@ -1,0 +1,45 @@
+body {
+    min-width: 160px;
+    min-height: 210px;
+    margin: 0px;
+    border: 2px solid white;
+    background-color: #1d1c1c;
+    color: #ffffff;
+}
+
+.main {    
+    text-align: center;
+    cursor: default;
+}
+
+.main h1 {
+    text-transform: uppercase;
+}
+
+#converter {
+    margin: 0 auto;
+    padding: 20px;
+    outline: none;
+    border: none;
+    background-color: #66d4af;
+    display: inline-block;
+    border-radius: 25px;
+    transition: opacity 0.2s, transform 0s;
+    box-shadow: 0 2px #b8b4b4d3;
+}
+
+#converter:hover {
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+#converter:active {
+    opacity: 0.95;
+    box-shadow: 0 0;
+    transform: translateY(1.5px);
+}
+
+.main span {
+    display: block;
+    padding-top: 10px;
+}
